@@ -1,4 +1,4 @@
-from pig import User
+import user
 import unittest
 
 
