@@ -17,6 +17,7 @@ class TestDiceClass(unittest.TestCase):
         self.assertTrue(1 <= result[1] <= 6)
         res = [2, 5]
         exp = [2, 5]
+        self.assertEqual(res, exp)
 
 
 if __name__ == "__main__":
