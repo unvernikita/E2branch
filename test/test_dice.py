@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import Mock, patch
-from pig import Dice
+import Dice
 
 
 class TestDiceClass(unittest.TestCase):
